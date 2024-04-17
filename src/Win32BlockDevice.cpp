@@ -1,6 +1,7 @@
 #include "Win32BlockDevice.hpp"
 #include <cassert>
 #include <system_error>
+#include <bit>
 
 namespace vmgs {
     void Win32BlockDevice::read_blocks(uint64_t lba, uint32_t n, void* buf) {
