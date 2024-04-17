@@ -1,4 +1,6 @@
 #include "crc32.hpp"
+#include <stdexcept>
+#include <limits.h>
 
 #if defined(WIN32)
 #include <windows.h>
